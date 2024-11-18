@@ -63,6 +63,9 @@ a {
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background: rgb(32, 32, 39);
+  cursor: pointer;
+  display: block;
+  padding-top: 15px;
 }
 .top-star1 {
   position: absolute;
@@ -139,6 +142,7 @@ a {
   text-align: left;
   width: 788px;
   height: 96px;
+  padding-bottom: 72px;
 }
 .game-star {
   position: absolute;
@@ -170,6 +174,11 @@ a {
   flex-direction: row;
   align-items: flex-end;
   gap: 32px;
+}
+.game-link {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .game-play {
   width: 378px;
@@ -257,12 +266,15 @@ a {
   box-sizing: border-box;
 }
 .game-bth {
-  border: none;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   width: 107px;
-  height: 36px;
+  color: black;
   margin-bottom: 16px;
   margin-top: 32px;
   margin-left: 32px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

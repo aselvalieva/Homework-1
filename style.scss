@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+
+
+
+
 .center {
     padding-left: calc(50% - 750px);
     padding-right: calc(50% - 750px);
@@ -66,6 +70,9 @@ a {
         border: 1px solid rgb(32, 32, 39);
         border-radius: 60px;
         background: rgb(32, 32, 39);
+        cursor: pointer;
+        display: block;
+        padding-top: 15px;
     }
 
     &-star1 {
@@ -158,6 +165,7 @@ a {
             text-align: left;
             width: 788px;
             height: 96px;
+            padding-bottom: 72px;
         }
     }
 
@@ -205,6 +213,13 @@ a {
 
 
     }
+
+    &-link {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
 
     &-play {
         width: 378px;
@@ -315,13 +330,16 @@ a {
 
 
     &-bth {
-        border: none;
+        display: inline-block;
+        padding-top: 8px;
+        padding-bottom: 8px;
         border-radius: 52.58px;
         background: rgb(247, 247, 247);
         width: 107px;
-        height: 36px;
+        color: black;
         margin-bottom: 16px;
         margin-top: 32px;
         margin-left: 32px;
+        text-align: center;
     }
 }
