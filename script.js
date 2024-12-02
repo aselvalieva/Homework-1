@@ -4,8 +4,8 @@ alert(r)
 let h = 20;
 alert(h);
 
-const age = 2007;
-alert(age);
+const year = 2007;
+alert(year);
 
 const creatorName = 'Brendan Eich';
 alert(creatorName);
@@ -27,16 +27,16 @@ alert(a % b);
 
 
 let num = 1;
-num = +5;
-num = -3;
-num = * 7;
-num = / 3;
-num = + 1;
-num = - 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num += 1;
+num -= 1;
 alert(num)
 
 
-let age = prompt(¡⁄ﬁ€Ï⁄ﬁ “–‹ €’‚ ?);
+let age = prompt('–°–∫–æ–ª—å–∫–æ –≤–∞–º –ª–µ—Ç ?');
 alert(age);
 
 const user = {
@@ -45,6 +45,6 @@ const user = {
     isAdmin: true
 };
 
-let name = prompt('≤“’‘ÿ‚’ “–Ë’ ÿ‹Ô:');
-alert(`ø‡ÿ“’‚, $ {name}!`);
+let name = prompt('–í–≤–µ–¥–∏—Ç–µ –≤–∞—à–µ –∏–º—è:');
+alert(`–ü—Ä–∏–≤–µ—Ç, ${name}!`);
 
