@@ -1,5 +1,8 @@
-let r = 10;
-alert(r)
+let a = 10;
+alert(a);
+
+a = 20;
+alert(a);
 
 let h = 20;
 alert(h);
@@ -21,9 +24,9 @@ alert(x / y);
 let result = 2 ** 5;
 alert(result);
 
-let a = 9;
+let A = 9;
 let b = 2;
-alert(a % b);
+alert(A % b);
 
 
 let num = 1;

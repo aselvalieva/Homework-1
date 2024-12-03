@@ -392,7 +392,7 @@ a {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -403,11 +403,15 @@ a {
     background-size: 60%;
     background-position-x: 65vw;
     background-position-y: -20vw;
+    height: 100%;
+    position: relative;
+    padding-bottom: 285px;
   }
   .top {
     width: 100%;
     padding-top: 147px;
     padding-left: 0px;
+    height: auto;
   }
   .top-head {
     color: rgb(32, 32, 39);
@@ -437,18 +441,18 @@ a {
   .top-star4 {
     display: none;
   }
-  .top-star__mobile {
+  .top-stars {
     display: contents;
   }
   .top-mob4 {
     position: absolute;
     left: 80%;
-    top: 165%;
+    top: 140%;
   }
   .top-mob5 {
     position: absolute;
     left: 75%;
-    top: 155%;
+    top: 135%;
   }
   .top-mob6 {
     position: absolute;
@@ -464,12 +468,15 @@ a {
     width: 285px;
     height: 55px;
     padding-top: 10px;
-    margin-top: 60px;
-    margin-left: 26px;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    position: absolute;
+    left: 15%;
+    top: 65%;
   }
   .frame {
     height: 52px;
-    top: 750px;
   }
   .frame__quiz {
     font-size: 16px;
@@ -505,7 +512,7 @@ a {
     display: none;
   }
   .game-box__mob {
-    padding-top: 48px;
+    padding-top: 80px;
     display: block;
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -513,7 +520,6 @@ a {
     line-height: 49px;
     letter-spacing: 0px;
     text-align: left;
-    padding-top: 48px;
   }
   .game-star {
     display: none;
@@ -554,37 +560,47 @@ a {
   .game-play2 {
     width: 100%;
     height: 590px;
-    transform: none .game-play2 __top;
-    transform-padding-top: 30px;
-    transform-padding-bottom: 16px;
+    transform: none;
+  }
+  .game-play2__top {
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .game-play3 {
     width: 100%;
     height: 555px;
-    transform: none .game-play3 __top;
-    transform-padding-top: 30px;
-    transform-padding-bottom: 16px;
+    transform: none;
+  }
+  .game-play3__top {
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .game-play4 {
     width: 100%;
     height: 590px;
-    transform: none .game-play4 __top;
-    transform-padding-top: 30px;
-    transform-padding-bottom: 16px;
+    transform: none;
+  }
+  .game-play4__top {
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .game-play5 {
     width: 100%;
     height: 590px;
-    transform: none .game-play5 __top;
-    transform-padding-top: 30px;
-    transform-padding-bottom: 16px;
+    transform: none;
+  }
+  .game-play5__top {
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .game-play6 {
     width: 100%;
     height: 650px;
-    transform: none .game-play6 __top;
-    transform-padding-top: 30px;
-    transform-padding-bottom: 16px;
+    transform: none;
+  }
+  .game-play6__top {
+    padding-top: 30px;
+    padding-bottom: 16px;
   }
   .game-bth {
     display: none;
