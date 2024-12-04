@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>homework-1</title>
@@ -26,17 +26,24 @@
             <img class="top-star2" src="image/star-small.png" alt="star2">
             <img class="top-star3" src="image/star-green-small.png" alt="star3">
             <img class="top-star4" src="image/star.png" alt="star4">
+            <div class="top-stars">
+                <img class="top-mob4" src="image/Star-mob4.svg" alt="star-mob4">
+                <img class="top-mob5" src="image/Star-mob5.svg" alt="star-mob5">
+                <img class="top-mob6" src="image/star-mob6.svg" alt="star-mob6">
+                <img class="top-mob7" src="image/Star-mob7.svg" alt="star-mob7">
+            </div>
         </section>
-        <a href="#game" id="scrollToGames" class="top-btn">Поехали!</a>
+        <a href="#game" class="top-btn">Поехали!</a>
     </header>
-    <div class="frame center">
+    <div class="frame">
         <div class="frame__quiz">Викторина</div>
+        <div class="frame__star-mob"><img src="image/mobile-black.star.svg" alt=""></div>
         <div class="frame__star1"><img src="image/Star-black.svg" alt="star-black"></div>
         <div class="frame__quiz">угадай число</div>
         <div class="frame__star2"><img src="image/Star-black.svg" alt="star-black"></div>
-        <div class="frame__quiz">Переверни текст</div>
+        <div class="frame__quiz2">Переверни текст</div>
         <div class="frame__star3"><img src="image/Star-black.svg" alt="star-black"></div>
-        <div class="frame__quiz">Простая арифметика</div>
+        <div class="frame__quiz2">Простая арифметика</div>
         <div class="frame__star3"><img src="image/Star-black.svg" alt="star-black"></div>
     </div>
 
@@ -44,66 +51,148 @@
     <main class="game center">
         <section class="game-box">
             <h1 id="game" class="game-box__top">Об играх</h1>
+            <h1 class="game-box__mob">Мини-игры</h1>
             <p class="game-box__text">В моей коллекции представлено 6 игр на разные темы.Игры несложные — в них
                 может
                 поиграть каждый.
                 Все игры доступны для пользования.</p>
             <img class="game-star" src="image/star-yellow2.png" alt="yellow star">
             <img class="game-star2" src="image/star-small-yellow2.png" alt="small yellow star">
-            <div class="game-case"></div>
-            <div class="game-case__high">
-                <a class="game-link" href="#">
-                    <div class="game-play">
-                        <img class="game-play__img" src="image/card-1.png" alt="game-1">
-                        <span class="game-bth">Игра № 1</span>
-                        <h2 class="game-play__top">Угадай число</h2>
-                    </div>
-                </a>
-                <a class="game-link" href="#">
-                    <div class="game-play2">
-                        <img class="game-play2__img" src="image/card-2.png" alt="game-2">
-                        <span class="game-bth">Игра № 2</span>
-                        <h2 class="game-play2__top">Простая арифметика</h2>
-                    </div>
-                </a>
-                <a class="game-link" href="#">
-                    <div class="game-play">
-                        <img class="game-play__img" src="image/card-3.png" alt="game-3">
-                        <span class="game-bth">Игра № 3</span>
-                        <h2 class="game-play__top">Переверни текст</h2>
-                    </div>
-                </a>
+            <div class="game-case">
+                <div class="game-case__high">
+                    <a class="game-link" href="#">
+                        <div class="game-play1">
+                            <img class="game-play1__img" src="image/card-1.png" alt="game-1">
+                            <span class="game-bth">Игра № 1</span>
+                            <h2 class="game-play1__top">Угадай число</h2>
+                            <h4 class="game-text">Попробуй угадать случайное число от 1 до 100.</h4>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                    <a class="game-link" href="#">
+                        <div class="game-play2">
+                            <img class="game-play2__img" src="image/card-2.png" alt="game-2">
+                            <span class="game-bth">Игра № 2</span>
+                            <h2 class="game-play2__top">Простая арифметика</h2>
+                            <p class="game-text">Попробуй решить простые арифметические задачи.</p>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                    <a class="game-link" href="#">
+                        <div class="game-play3">
+                            <img class="game-play3__img" src="image/card-3.png" alt="game-3">
+                            <span class="game-bth">Игра № 3</span>
+                            <h2 class="game-play3__top">Переверни текст</h2>
+                            <p class="game-text">Попробуй ввести текст, который будет перевернут.</p>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-case__low">
+                    <a class="game-link" href="#">
+                        <div class="game-play4">
+                            <img class="game-play4__img" src="image/card-4.png" alt="game-4">
+                            <span class="game-bth">Игра № 4</span>
+                            <h2 class="game-play4__top">Камень, ножницы, бумага</h2>
+                            <p class="game-text">Отвечай на вопросы викторины с вариантами ответов.</p>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                    <a class="game-link" href="#">
+                        <div class="game-play5">
+                            <img class="game-play5__img" src="image/card-5.png" alt="game-5">
+                            <span class="game-bth">Игра № 5</span>
+                            <h2 class="game-play5__top">Простая викторина</h2>
+                            <p class="game-text">Сыграй в популярную игру против компьютера.</p>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                    <a class="game-link" href="#">
+                        <div class="game-play6">
+                            <img class="game-play6__img" src="image/card-6.png" alt="game-6">
+                            <span class="game-bth">Игра № 6</span>
+                            <h2 class="game-play6__top">Генератор случайных цветов</h2>
+                            <p class="game-text">Игра, в которой при клике на кнопку фон страницы меняется на случайный.
+                            </p>
+                            <span class="game-button">Играть!</span>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="game-case__low">
-                <a class="game-link" href="#">
-                    <div class="game-play">
-                        <img class="game-play__img" src="image/card-4.png" alt="game-4">
-                        <span class="game-bth">Игра № 4</span>
-                        <h2 class="game-play__top">Камень, ножницы, бумага</h2>
-                    </div>
-                </a>
-                <a class="game-link" href="#">
-                    <div class="game-play5">
-                        <img class="game-play5__img" src="image/card-5.png" alt="game-5">
-                        <span class="game-bth">Игра № 5</span>
-                        <h2 class="game-play5__top">Простая викторина</h2>
-                    </div>
-                </a>
-                <a class="game-link" href="#">
-                    <div class="game-play">
-                        <img class="game-play__img" src="image/card-6.png" alt="game-6">
-                        <span class="game-bth">Игра № 6</span>
-                        <h2 class="game-play__top">Генератор случайных цветов</h2>
-                    </div>
-                </a>
-            </div>
-
-
-
 
         </section>
     </main>
 
+    <section class="match center">
+        <div class="match-conteiner">
+            <h1 class="match-top">Мини-игры</h1>
+            <img class="match-star" src="image/star-yellow2.png" alt="yellow star">
+            <img class="match-star2" src="image/star-small-yellow2.png" alt="small yellow star">
+            <img class="match-star3" src="image/star-yellow2.png" alt="yellow star">
+            <img class="match-star4" src="image/star-small-yellow2.png" alt="small yellow star">
+            <div class="match-case">
+                <div class="match-box">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Угадай число</h2>
+                        <h4 class="match-text">Попробуй угадать случайное число от 1 до 100.</h4>
+                        <button class="match-button">Играть!</button>
+                    </div>
+                    <img class="match-box__img" src="image/card-1.png" alt="game-1">
+
+                </div>
+                <div class="match-box">
+                    <img class="match-box__img" src="image/card-2.png" alt="game-2">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Простая арифметика</h2>
+                        <p class="match-text">Попробуй решить простые арифметические задачи.</p>
+                        <button class="match-button">Играть!</button>
+                    </div>
+                </div>
+                <div class="match-box">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Переверни текст</h2>
+                        <p class="match-text">Попробуй ввести текст, который будет перевернут.</p>
+                        <button class="match-button">Играть!</button>
+                    </div>
+                    <img class="match-box__img" src="image/card-3.png" alt="game-3">
+
+                </div>
+                <div class="match-box">
+                    <img class="match-box__img" src="image/card-5.png" alt="game-4">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Простая викторина</h2>
+                        <p class="match-text">Сыграй в популярную игру против компьютера.</p>
+                        <button class="match-button">Играть!</button>
+                    </div>
+                </div>
+                <div class="match-box">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Камень, ножницы, бумага</h2>
+                        <p class="match-text">Отвечай на вопросы викторины с вариантами ответов.</p>
+                        <button class="match-button">Играть!</button>
+                    </div>
+                    <img class="match-box__img" src="image/card-4.png" alt="game-5">
+                </div>
+
+                <div class="match-box">
+                    <img class="match-box__img" src="image/card-6.png" alt="game-6">
+                    <div class="match-play">
+                        <h2 class="match-play__top">Генератор случайных цветов</h2>
+                        <p class="match-text">Игра, в которой при клике на кнопку фон страницы меняется на случайный.
+                        </p>
+                        <button class="match-button">Играть! </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="footer-text">Все права защищены.</h2>
+    </footer>
+
+    <script src="script-2.js"></script>
 </body>
 
 </html>
