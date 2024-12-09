@@ -21,7 +21,6 @@ a {
 }
 
 .header {
-    height: 800px;
     background-color: rgb(225, 255, 143);
     background-image: url(image/Group\ 1597880565.svg);
     background-repeat: no-repeat;
@@ -31,7 +30,7 @@ a {
 
 .top {
     width: 768px;
-    height: 244px;
+
     padding-top: 196px;
     padding-left: 120px;
     position: relative;
@@ -78,28 +77,28 @@ a {
 
     &-star1 {
         position: absolute;
-        left: 7%;
+        left: -10%;
         top: 20%;
     }
 
 
     &-star2 {
         position: absolute;
-        left: 17%;
+        left: 3%;
         top: 15%;
     }
 
 
     &-star3 {
         position: absolute;
-        right: -15%;
-        bottom: -20%;
+        right: -10%;
+        bottom: -5%;
     }
 
 
     &-star4 {
         position: absolute;
-        bottom: -40%;
+        bottom: -20%;
         right: -25%;
     }
 
